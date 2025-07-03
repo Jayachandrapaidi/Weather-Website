@@ -2,7 +2,7 @@
 
 A responsive and elegant Weather App built using **HTML**, **CSS**, and **JavaScript**, powered by the **OpenWeatherMap API**. This app allows users to check real-time weather conditions by entering any city name.
 
-![Weather App Demo](./img/demo.png)
+![Weather App Demo](https://github.com/Jayachandrapaidi/Weather-Website/blob/main/Images/demo.png?raw=true)
 
 ## 📌 Features
 
