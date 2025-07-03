@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta Tags -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Title and Favicon -->
+  <title>🌦️ Weather App</title>
+  <link rel="shortcut icon" href="img/bg.jpg" type="image/x-icon" />
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+</head>
+
+<body>
+
+  <!-- Main App Container -->
+  <main class="app-main" id="parent">
+    <header class="header">
+      <h1>Get Weather</h1>
+    </header>
+
+    <!-- Search Box -->
+    <section class="searchInputBox">
+      <input
+        type="text"
+        id="input-box"
+        class="input-box"
+        placeholder="Enter city name"
+        aria-label="Enter city name"
+      />
+    </section>
+
+    <!-- Weather Display Area -->
+    <section class="weather-body" id="weather-body">
+      <!-- Content will be injected by JavaScript -->
+    </section>
+  </main>
+
+  <!-- SweetAlert Script -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
